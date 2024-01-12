@@ -1,0 +1,156 @@
+/*utility*/
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*top-nav-bar*/
+#top-nav-bar{
+    /*display: none;*/
+    justify-content: space-between;
+    position: fixed;
+    width: 99vw;
+    color: white;
+    background-color: #212121;
+    height: 10vh;
+    z-index: 5;
+}
+.menu-icon{
+    width: 5vw;
+    padding: 1rem;
+}
+.yt-name{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium';
+    margin: 0.4rem;
+}
+input{
+    outline: none;
+    padding-left: 0.5rem;
+    width: 25rem;
+    height: 6vh;
+    background-color: #0f0f0f;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    color:white;
+}
+input:focus{
+    transition: all 0.5s;
+    border: 1px solid #065fd4;  
+}
+.search-icon{
+    width: 4rem;
+    height: 6vh;
+    background-color: hsl(0, 0%, 18.82%);
+}
+.flex-col{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.mic{
+    margin: 1rem;
+    background-color: #0f0f0f;
+    height: 6vh;
+    width: 2.4rem;
+    border-radius: 3rem;
+
+}
+.right i{
+    margin: 1rem;
+}
+/*laft-nav-bar*/
+#left-nav-bar{
+   top: 10vh;
+   position: fixed;
+   height: 90vh;
+   color: white;
+   width: 5vw;
+   background-color: #212121;
+   font-size: 0.8rem;
+
+}
+#left-nav-bar i{
+    margin-bottom: 1rem;
+}
+#left-nav-bar div{
+    font-size: 0.8rem;
+}
+.menu-item{
+    height: 5rem;
+    margin-bottom: 0.5rem;
+}
+.menu-item:hover{
+    background-color: hsl(0, 0%, 18.82%);
+    transition: all 0.5s;
+}
+/*container*/
+/*#container{
+    background-color: 181818;
+    padding: 1rem;
+    width: 94vw;
+    position: relative;
+    z-index: -1;
+    top: 10vh;
+    left: 5vw;
+}*/
+#container{
+    background-color: 181818;
+    padding: 1rem;
+    width: 94vw;
+    position: relative;
+    z-index: 4;
+    top: 10vh;
+    left: 5vw;
+}
+.box img{
+    width: 20vw;
+    height: 26vh;
+}
+.box video{
+    width: 20vw;
+    height: 26vh;
+}
+.box mallanna{
+    width: 20vw;
+    height: 26vh;
+}
+.box{
+    margin: 0.5rem;
+    flex-grow: 1;
+   /* height: ;
+    width: ;*/
+    justify-content: inherit;
+
+
+}
+/*.content{
+
+}*/
+.content-right{
+    width: 15vw;
+    padding: 0.2rem 1rem;
+}
+/*.content-right div{
+    margin: 0.2rem;
+}*/
+.content-head{
+    font-size: 1.5rem;
+}
+.info{
+    color: #717171;
+}
+.container-box{
+    justify-content: initial;
+    flex-wrap: wrap;
+}
